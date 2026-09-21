@@ -54,6 +54,8 @@ nlu:
     - chốt nào
     - chính xác
     - thông tin chính xác
+    - lấy số này
+    - chuẩn số này
 
 - intent: tu_choi
   examples: |

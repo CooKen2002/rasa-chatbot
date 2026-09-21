@@ -207,7 +207,10 @@ class chao_hoi(Action):
                 dispatcher.utter_message(
                     text="xin chào quý khách, em giúp gì cho anh chị ạ?"
                 )
-
+        else: # for debug
+            dispatcher.utter_message(
+                text="xin chào quý khách, em giúp gì cho anh chị ạ?"
+            )
         return []
 
 def get_state(tracker):
