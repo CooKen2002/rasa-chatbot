@@ -3,3 +3,7 @@ models/
 __pycache__/
 logs/
 .rasa/
+/models_hf/
+results/
+typing/
+

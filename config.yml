@@ -5,7 +5,10 @@ language: vi
 pipeline:
   - name: components.sks_tokenizer.sks_tokenizer.SKS_tokenizer
     base_path: "./components/sks_tokenizer"
-  - name: components.countVectorsFeaturizer.SKS_CountVectorsFeaturizer
+  # - name: components.countVectorsFeaturizer.SKS_CountVectorsFeaturizer
+  
+  - name: components.phobert_featurizer.PhoBertFeaturizer
+    model_weights: "vinai/phobert-base"
 
   - name: DIETClassifier
     epochs: 50
@@ -18,7 +21,7 @@ pipeline:
   - name: EntitySynonymMapper
 
   # Custom components hậu xử lý
-  - name: components.postProcess.PostProcess
+  # - name: components.postProcess.PostProcess
 
   # - name: FallbackClassifier
   #   threshold: 0.7
