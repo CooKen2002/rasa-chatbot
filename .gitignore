@@ -1,4 +1,5 @@
 .venv_rasa/
+.venv/
 models/
 __pycache__/
 logs/
