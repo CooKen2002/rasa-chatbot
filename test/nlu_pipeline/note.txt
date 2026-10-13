@@ -1,0 +1,7 @@
+phobert log test
+tokenizer in 0.0040 seconds
+feature extract in 0.2171 seconds
+
+finetune on gomyk 
+tokenizer in 0.0019 seconds
+feature extract in 0.0585 seconds
