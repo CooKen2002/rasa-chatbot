@@ -30,6 +30,8 @@ nlu:
     - đồng ý
     - đồng ý rồi
     - xác nhận
+    - có
+    - ừm
 
     # --- xác nhận và yêu cầu tiếp tục ---
     - xác nhận luôn đi
