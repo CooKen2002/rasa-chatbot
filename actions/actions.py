@@ -400,14 +400,14 @@ class xac_nhan_form_dat_ve(Action):
 
         dispatcher.utter_message(
             text=(
-                f"em xác nhận thông tin đặt vé của anh chị:"
-                f"đón tại: {diem_don} "
-                f"đến: {diem_den} "
-                f"giờ: {thoi_gian} "
-                f"loại xe: {loai_xe} "
-                f"số lượng: {so_luong} "
-                f"họ tên: {ho_ten} "
-                f"điện thoại: {dien_thoai} "
+                f"em xác nhận thông tin đặt vé của anh chị:\n"
+                f"đón tại: {diem_don}\n"
+                f"đến: {diem_den}\n"
+                f"giờ: {thoi_gian}\n"
+                f"loại xe: {loai_xe}\n"
+                f"số lượng: {so_luong}\n"
+                f"họ tên: {ho_ten}\n"
+                f"điện thoại: {dien_thoai}\n"
             )
         )
 
