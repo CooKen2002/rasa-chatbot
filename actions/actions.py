@@ -400,7 +400,7 @@ class xac_nhan_form_dat_ve(Action):
 
         dispatcher.utter_message(
             text=(
-                f"em xác nhận thông tin đặt vé của anh chị: "
+                f"em xác nhận thông tin đặt vé của anh chị:"
                 f"đón tại: {diem_don} "
                 f"đến: {diem_den} "
                 f"giờ: {thoi_gian} "
